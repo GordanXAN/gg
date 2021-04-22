@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+    title
+      | БИО
+    meta(charset='utf-8')
+    link(rel='shotcut icon' href='imeges/m.ico')
+
+
+    body
+    .head
+      h1
+        | Блог Харитонова Алексея
+      .navig_all
+        ul.navig
+          li
+            mixin link(href,name)
+                  a(class!=attributes.class href=href)= name
+            +link('news.html', 'Новости')(class = "btn")
+          li
+            +link('photo.html', 'Фото')(class = "btn")
+          li
+            a(href='rozklad.html' target='_blank')
+              | Моё рассписание
+    br
+    
+    .content
+      .body
+        h2
+          | Моя биография
+        table
+          tbody
+            tr
+              td
+                p.TXT
+                  | Я родился а потом понеслась.
+                  br
+                  | 					Было хорошо, пока не поступил в универ.
+                  br
+                  | 					Вот так-то, не оч вышло.
+                  br
+                  | 					Что не делается, то не делается.
+                  br
+                  | 					Так жизнь и проходит.
+                  br
+              td
+                img.IMG(src='imeges/2.jpg' width='150')
+            tr
+              td.end(colspan='2')
+                span.end2 END
+    footer.footer
+      p 2021

@@ -1,0 +1,182 @@
+h1{
+	margin: 10px;
+	text-align: center;
+	font: bold 45px Comic Sans MS;
+}
+.head{
+	background: darkgray;
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+	 margin: auto;
+	 height: 125px;
+
+}
+/*заголовок*/
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+.navig_all{
+	width: 400px;
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+	margin: 0 auto;
+
+}
+
+.navig{
+	display: flex;
+}
+
+.navig li{
+	font: bold 15px Comic Sans MS;
+	list-style: none;
+    margin: auto;
+	text-decoration: none;
+}
+
+.navig a{
+	color: white;
+	text-decoration: none;
+	
+	
+}
+
+.navig a:hover{
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+	background: black;
+	
+} 
+/* нафигация */
+
+h2{
+	text-align: center;
+	font: bold 20px Comic Sans MS;
+}
+
+table
+{
+	 margin: auto;
+	 text-align: left;
+}
+
+.end {
+	text-align: center;
+}
+
+.end2{
+	background: darkgray;
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+
+}
+
+.body{
+	background: darkgray;
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+	margin: auto;
+	height: auto;
+	width: 505px;
+	font: bold 15px Comic Sans MS;
+
+}
+
+.body_rozklad table{
+	text-align: center;
+	color: white;
+	margin: auto;
+	height: 283px;
+	width: 505px;
+	font: bold 15px Comic Sans MS;
+}
+.body_rozklad th{
+
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+	
+}
+.body_rozklad td{
+
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+	
+}
+
+.body_photo{
+	text-align: center;
+	background: darkgray;
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+	margin: auto;
+	height: auto;
+	width: 505px;
+	font: bold 15px Comic Sans MS;
+
+}
+
+.body_news{
+	text-align: center;
+	background: darkgray;
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+	margin: auto;
+	height: auto;
+	width: 505px;
+	font: bold 15px Comic Sans MS;
+
+}
+
+.IMG{
+	background: darkgray;
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+	margin: auto;
+
+}
+
+.TXT{
+	background: darkgray;
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+	margin: auto;
+}
+
+html, body {
+  height: 100%;
+
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+	 margin-top: 100px;
+  	padding: 0;
+  	flex-shrink: 0;
+}
+
+.styles a{
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	  background: darkgray;
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+	margin: auto;
+}
+
+.styles{
+	text-align: center;
+	
+}
+
+html{
+  background: radial-gradient(#648880, #293f50);
+ 	
+}
